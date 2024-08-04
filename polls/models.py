@@ -1,6 +1,6 @@
 from django.db import models
 
-# Changes made 
+# Changes start
 class Question(models.Model):
     question_text = models.CharField(max_length=100)
     pub_date = models.DateTimeField()
